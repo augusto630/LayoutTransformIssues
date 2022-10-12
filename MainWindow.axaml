@@ -7,7 +7,7 @@
         Height="295"
         x:Class="LayoutTransformIssues.MainWindow"
         Title="LayoutTransformIssues">
-    <LayoutTransformControl x:Name="transformControl">
+    <LayoutTransformControl x:Name="transformControl" UseLayoutRounding="true">
         <LayoutTransformControl.LayoutTransform>
             <ScaleTransform ScaleX="1.5"
                             ScaleY="1.5"/>
